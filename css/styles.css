@@ -3,13 +3,34 @@ body {
   color: #434455;
   background-color: #fff;
 }
+
+/* reset */
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+/* common */
+.container {
+  min-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 button {
@@ -30,8 +51,17 @@ button {
 }
 
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -44,14 +74,20 @@ button {
 }
 .header-logo {
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-part {
 }
 .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .nav-item {
 }
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -60,12 +96,18 @@ button {
 }
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts-item {
 }
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -77,6 +119,7 @@ button {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -86,6 +129,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -95,6 +140,12 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  border-radius: 4px;
+  display: block;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  margin: 48px auto 0;
 }
 
 .hero-btn:hover,
