@@ -240,10 +240,10 @@ button {
 .our-team-item {
   background-color: #ffffff;
   width: calc((100%-3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-img {
-  border-radius: 0px 0px 4px 4px;
 }
 .our-team-subtitle {
   font-weight: 500;
@@ -264,8 +264,7 @@ button {
 }
 
 .our-team-item-box {
-  padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
 }
 /* #endregion Section Our Team */
 
